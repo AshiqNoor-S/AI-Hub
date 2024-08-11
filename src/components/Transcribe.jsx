@@ -10,7 +10,7 @@ const AudioRecorder = () => {
   const [transcription, setTranscription] = useState('');
   const [loading, setLoading] = useState(false);
   const [translation, setTranslation] = useState('');
-  const HF_ACCESS_TOKEN = "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";  
+  const HF_ACCESS_TOKEN = "ENTER YOUR TOKEN";  
   const inference = new HfInference(HF_ACCESS_TOKEN);
 
   const startRecording = () => {
