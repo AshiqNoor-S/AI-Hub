@@ -6,7 +6,7 @@ function ImageGen() {
   const [inputText, setInputText] = useState("");
   const [generatedImage, setGeneratedImage] = useState("");
   const [loading, setLoading] = useState(false);
-  const inference = new HfInference("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");
+  const inference = new HfInference("ENTER YOUR TOKEN);
 
   const textToImage = async (text) => {
     setLoading(true);
