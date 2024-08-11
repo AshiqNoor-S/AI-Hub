@@ -12,7 +12,7 @@ const systemMessage = {
 
 function Chatbot() {
   const [isRecording, setIsRecording] = useState(false);
-  const HF_ACCESS_TOKEN = "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";
+  const HF_ACCESS_TOKEN = "ENTER YOUR TOKEN";
   const [transcription, setTranscription] = useState('');
   const inference = new HfInference(HF_ACCESS_TOKEN);
   const [recordedBlob, setRecordedBlob] = useState(null);
